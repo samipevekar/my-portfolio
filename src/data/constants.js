@@ -5,11 +5,12 @@ import textutils from "../images/textutils.png"
 import inotebook from "../images/inotebook.png"
 import simpleecommerce from "../images/simpleecommerce.png"
 import netflix from "../images/netflix.png"
+import xClone from "../images/x-clone.png"
 
 export const Bio = {
   name: "Sami Pevekar",
   roles: [
-    "Full Stack Web Developer",
+    "Full Stack Developer",
     "Programmer",
   ],
   description:
@@ -83,7 +84,7 @@ export const skills = [
     skills: [
       {
         name: "Node Js",
-        image: "https://nodejs.org/static/images/logo.svg",
+        image: "https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png",
       },
       {
         name: "Express Js",
@@ -111,7 +112,7 @@ export const skills = [
       {
         name: "MongoDB",
         image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+          "https://1000logos.net/wp-content/uploads/2020/08/MongoDB-Emblem.jpg",
       },
       {
         name: "Firebase",
@@ -329,6 +330,18 @@ export const education = [
 
 export const projects = [
   {
+    id: 3,
+    title: "X clone",
+    date: "Sep 2024",
+    description:
+      "I have created a X clone with some additional functionalities, like you can upload story on it and many more unique features will come. I have used Cloudinary to store images.",
+    image: xClone,
+    tags: ["React", "Tailwind", "Node", "Express", "Mongodb", "TanStack Query", "DaisyUi", "Cloudinary"],
+    category: "android app",
+    github: "https://github.com/samipevekar/x-clone",
+    webapp: "https://x-frontend-kuz7.onrender.com/",
+  },
+  {
     id: 9,
     title: "Visual Vault",
     date: "may 2024 - June 2024",
@@ -375,6 +388,19 @@ export const projects = [
     // ],
   },
   {
+    id: 10,
+    title: "Netflix Clone",
+    date: "Dec 2023",
+    description:
+      "This is a clone website of netflix with login signup functionality.",
+    image: netflix,
+    tags: ["html", "css", "js","node"],
+    category: "android app",
+    github: "https://github.com/samipevekar/NetflixClone.git",
+    webapp: "https://netflixclone-scjz.onrender.com/",
+  },
+  
+  {
     id: 1,
     title: "iNotebook",
     date: "Oct 2023 - Present",
@@ -391,6 +417,18 @@ export const projects = [
     category: "web app",
     github: "https://github.com/samipevekar/iNotebook-react.git",
     webapp: "https://i-notebook-frontend-nu.vercel.app/",
+  },
+  {
+    id: 3,
+    title: "Simple Ecommerce",
+    date: "Dec 2022 ",
+    description:
+      "Created a simple Ecommerce website for selling products with mode. It's a dummy website",
+    image: simpleecommerce,
+    tags: ["html", "css", "javascript"],
+    category: "android app",
+    github: "https://github.com/samipevekar/Ecommece-website.git",
+    webapp: "https://samipevekar.github.io/Ecommece-website/",
   },
   {
     id: 2,
@@ -418,30 +456,8 @@ export const projects = [
     //   },
     // ],
   },
-  {
-    id: 3,
-    title: "Simple Ecommerce",
-    date: "Dec 2022 ",
-    description:
-      "Created a simple Ecommerce website for selling products with mode. It's a dummy website",
-    image: simpleecommerce,
-    tags: ["html", "css", "javascript"],
-    category: "android app",
-    github: "https://github.com/samipevekar/Ecommece-website.git",
-    webapp: "https://samipevekar.github.io/Ecommece-website/",
-  },
-  {
-    id: 10,
-    title: "Netflix Clone",
-    date: "Dec 2023",
-    description:
-      "This is a clone website of netflix with login signup functionality.",
-    image: netflix,
-    tags: ["html", "css", "js","node"],
-    category: "android app",
-    github: "https://github.com/samipevekar/NetflixClone.git",
-    webapp: "https://netflixclone-scjz.onrender.com/",
-  },
+  
+  
 ];
 
 export const TimeLineData = [
