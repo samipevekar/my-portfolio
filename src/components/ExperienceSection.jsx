@@ -4,17 +4,49 @@ import React from "react";
 const experiences = [
   {
     id: 1,
+    role: "Software Developer",
+    company: "Nestcraft Design",
+    duration: "Present",
+    description:
+      "Developed full-stack products including Feelaxo, Feelaxo Jobs, and a WhatsApp automation platform. Integrated WhatsApp Business APIs, built RESTful services, and optimized databases for scalable, high-performance systems.",
+    skills: [
+      "Next.js",
+      "React.js",
+      "Node.js",
+      "Express.js",
+      "MySQL",
+      "REST API Development",
+      "WhatsApp Business API",
+      "Webhook Integration",
+      "JWT Authentication",
+      "Real-time Systems",
+      "Database Design",
+      "API Integration",
+      "Automation Workflows",
+    ],
+  },
+  {
+    id: 1,
     role: "Software Developer Intern",
     company: "SNJL",
     duration: "Mar 2025 - June 2025",
     description:
       "Spearheaded the development of a full-stack Liquor Enterprise Management System (EMS), enabling centralized accounting, sales, and inventory management across 10+ shops.",
-    skills: ["React", "React Native", "NodeJs", "ExpressJs", "PostgreSQL"],
+    skills: [
+      "React.js",
+      "React Native",
+      "Node.js",
+      "Express.js",
+      "PostgreSQL",
+      "Database Design",
+      "API Integration",
+      "JWT Authentication",
+      "REST API Development",
+    ],
     certificate:
       "https://drive.google.com/file/d/1eFNk-mlVfh07rNv9Hp5mQaN51P216Ba6/view",
     type: "Remote", // Badge info
   },
-  // future internships/experience objects yaha add karte jao
 ];
 
 export const ExperienceSection = () => {
@@ -50,7 +82,9 @@ export const ExperienceSection = () => {
                     {exp.role}
                   </h3>
                   <p className="text-muted-foreground">{exp.company}</p>
-                  <p className="text-sm text-muted-foreground">{exp.duration}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {exp.duration}
+                  </p>
                 </div>
 
                 {/* Description */}

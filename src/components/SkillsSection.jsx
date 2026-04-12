@@ -3,12 +3,9 @@ import { cn } from "@/lib/utils";
 
 const skills = [
   // Languages
-  { name: "Python", category: "languages" },
   { name: "JavaScript", category: "languages" },
   { name: "TypeScript", category: "languages" },
   { name: "SQL", category: "languages" },
-  { name: "HTML5", category: "languages" },
-  { name: "CSS3", category: "languages" },
   { name: "Object-Oriented Programming", category: "languages" },
 
   // Frontend
@@ -23,8 +20,6 @@ const skills = [
 
   // Backend
   { name: "Node.js", category: "backend" },
-  { name: "Django", category: "backend" },
-  { name: "Flask", category: "backend" },
   { name: "Express.js", category: "backend" },
   { name: "REST APIs", category: "backend" },
   { name: "Prisma", category: "backend" },
@@ -47,7 +42,6 @@ const skills = [
   { name: "TanStack Query", category: "tools" },
   { name: "CI/CD Pipelines", category: "tools" },
   { name: "Postman", category: "tools" },
-  { name: "VS Code", category: "tools" },
 ];
 
 const categories = ["all", "languages", "frontend", "backend", "databases", "tools"];
@@ -67,13 +61,13 @@ export const SkillsSection = () => {
         </h2>
 
         {/* Category Buttons */}
-        <div className="flex flex-wrap justify-center gap-4 mb-12">
+        <div className="flex  flex-wrap justify-center gap-4 mb-12">
           {categories.map((category, key) => (
             <button
               key={key}
               onClick={() => setActiveCategory(category)}
               className={cn(
-                "px-5 py-2 rounded-full transition-colors duration-300 capitalize",
+                "px-5 py-2 cursor-pointer rounded-full transition-colors duration-300 capitalize",
                 activeCategory === category
                   ? "bg-primary text-primary-foreground"
                   : "bg-secondary/70 text-foreground hover:bg-secondary"
