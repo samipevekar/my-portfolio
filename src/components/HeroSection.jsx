@@ -13,7 +13,7 @@ export const HeroSection = () => {
           <div className="flex justify-center mb-6">
             <img
               src={profileImg}
-              alt="Profile"
+              alt="Sami Pevekar - AI Full Stack Developer"
               className="w-32 h-32 p-1 md:w-40 md:h-40 rounded-full object-cover shadow-lg border-4 border-primary opacity-0 animate-fade-in"
             />
           </div>

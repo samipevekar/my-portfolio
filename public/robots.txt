@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://samipevekar.is-a.dev/sitemap.xml
