@@ -33,14 +33,23 @@ export const HeroSection = () => {
 
           {/* Subtitle */}
           <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto opacity-0 animate-fade-in-delay-3">
-            Full-stack developer skilled in MERN, Next.js, and mobile apps, with experience in scalable platforms, real-time data, AI, and cloud deployments.
+            Full-stack developer skilled in MERN & Next.js with experience in scalable platforms, real-time data, AI, and cloud deployments.
           </p>
 
           {/* Button */}
+          <div className="flex gap-5 justify-center">
+
           <div className="pt-4 opacity-0 animate-fade-in-delay-4">
             <a href="#projects" className="cosmic-button">
               View My Work
             </a>
+          </div>
+
+          <div className="pt-4 opacity-0 animate-fade-in-delay-4">
+            <a href="https://github.com/samipevekar" target="_blank" className="border-2 border-primary px-2 py-1 rounded-full font-semibold text-primary">
+              GitHub
+            </a>
+          </div>
           </div>
         </div>
       </div>
