@@ -25,7 +25,7 @@ export const HeroSection = () => {
               {" "}
               Sami
             </span>
-            <span className="text-gradient ml-2 opacity-0 animate-fade-in-delay-2">
+            <span className="text-primary ml-2 opacity-0 animate-fade-in-delay-2">
               {" "}
               Pevekar
             </span>

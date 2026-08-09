@@ -1,30 +1,30 @@
-import React from "react";
+
 
 // Dummy logos (apne assets ke path yaha use karein)
 import hirwalLogo from "../assets/hirwal.png";
-import fajandarLogo from "../assets/fajandar.png";
+import ibsarLogo from "../assets/ibsar.png";
 
 // Education Data
 const educationData = [
+  {
+    id: 2,
+    institution: "Institute Of Business Studies And Research, Navi Mumbai",
+    degree: "Master of Science - Computer Applications",
+    duration: "Jul 2025 - June 2027",
+    grade: "",
+    description:
+      "I am persuing my Master's degree in Computer Applications at Institute Of Business Studies And Research, Navi Mumbai.",
+    logo: ibsarLogo,
+  },
   {
     id: 1,
     institution: "Hirwal Education Trust, Mahad",
     degree: "Bachelor of Science - Computer Science",
     duration: "June 2022 - April 2025",
-    grade: "9.77 CGPA",
+    grade: "9.81 CGPA",
     description:
       "I completed my Bachelor's degree in Computer Science at Hirwal Education Trust, Mahad.",
     logo: hirwalLogo,
-  },
-  {
-    id: 2,
-    institution: "Fajandar Education Trust, Vahoor",
-    degree: "HSC (XII), Science",
-    duration: "June 2020 - April 2022",
-    grade: "74.14%",
-    description:
-      "I completed my class 12 high school education at Fajandar Education Trust, Vahoor, where I studied Science with Computer.",
-    logo: fajandarLogo,
   },
 ];
 
@@ -64,9 +64,9 @@ export const EducationSection = () => {
                   <p className="text-sm text-muted-foreground">
                     {edu.duration}
                   </p>
-                  <p className="text-sm text-muted-foreground">
+                  {edu.grade && <p className="text-sm text-muted-foreground">
                     Grade: {edu.grade}
-                  </p>
+                  </p>}
                   {/* <p className="text-base text-foreground leading-relaxed">
                     {edu.description}
                   </p> */}

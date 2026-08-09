@@ -4,9 +4,27 @@ import Prescripto from "../assets/projects/prescripto.png";
 import Ecommerce from "../assets/projects/ecommerce.png";
 import QuickAI from "../assets/projects/quickai.png";
 import XClone from "../assets/projects/x-clone.png";
-import Blog from "../assets/projects/blog.png";
+import CodePilot from "../assets/projects/code-pilot.png";
 
 const projects = [
+  {
+    id: 6,
+    title: "Code Pilot",
+    description:
+      "AI-powered web IDE with real-time code editing and in-browser code execution.",
+    image: CodePilot,
+    tags: [
+      "Next.js",
+      "Ollama",
+      "WebContainers",
+      "MongoDB",
+      "Monaco Editor",
+      "ShadCN UI",
+      "TailwindCSS",
+    ],
+    demoUrl: "https://code-pilot-op5g.vercel.app/",
+    githubUrl: "https://github.com/samipevekar/code-pilot",
+  },
   {
     id: 1,
     title: "Welth",
@@ -97,23 +115,7 @@ const projects = [
     demoUrl: "https://x-frontend-kuz7.onrender.com/",
     githubUrl: "https://github.com/samipevekar/x-clone",
   },
-  {
-    id: 6,
-    title: "Blog",
-    description:
-      "MERN blog platform for reading, sharing, and dynamic user content.",
-    image: Blog,
-    tags: [
-      "React.js",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "Cloudinary",
-      "TailwindCSS",
-    ],
-    demoUrl: "https://blog-1-b8t3.onrender.com/",
-    githubUrl: "https://github.com/samipevekar/Blog",
-  },
+  
 ];
 
 export const ProjectsSection = () => {

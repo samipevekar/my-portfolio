@@ -1,4 +1,4 @@
-import { Code, Smartphone, Award } from "lucide-react";
+import { Code, Smartphone, Award, Server, Cloud } from "lucide-react";
 
 export const AboutSection = () => {
   return (
@@ -11,9 +11,7 @@ export const AboutSection = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           {/* Left Side */}
           <div className="space-y-6">
-            <h3 className="text-2xl font-semibold">
-              Web & Mobile App Developer
-            </h3>
+            <h3 className="text-2xl font-semibold">Full Stack Web Developer</h3>
 
             <p className="text-muted-foreground">
               With hands-on experience in web development, I specialize in
@@ -22,11 +20,10 @@ export const AboutSection = () => {
             </p>
 
             <p className="text-muted-foreground">
-              Full-stack developer skilled in MERN, Next.js, and mobile apps.
-              Experienced in building scalable web and mobile platforms with
-              real-time data, AI integrations, REST APIs, and cloud deployments.
-              Passionate about delivering impactful software in fast-paced
-              teams.
+              Full-stack developer skilled in MERN and Next.js. Experienced in
+              building scalable web platforms with real-time data, AI
+              integrations, REST APIs, and cloud deployments. Passionate about
+              delivering impactful software in fast-paced teams.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 justify-center">
@@ -62,8 +59,44 @@ export const AboutSection = () => {
               </div>
             </div>
 
-            {/* Mobile Dev Card */}
+            {/* Backend & API Card */}
             <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Server className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">
+                    Backend & API Development
+                  </h4>
+                  <p className="text-muted-foreground">
+                    Building scalable REST APIs and server-side systems with
+                    Node.js, Express, and both SQL and NoSQL databases.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Cloud & AI Card */}
+            <div className="gradient-border p-6 card-hover">
+              <div className="flex items-start gap-4">
+                <div className="p-3 rounded-full bg-primary/10">
+                  <Cloud className="h-6 w-6 text-primary" />
+                </div>
+                <div className="text-left">
+                  <h4 className="font-semibold text-lg">
+                    Cloud Deployment & AI Integration
+                  </h4>
+                  <p className="text-muted-foreground">
+                    Deploying production apps on AWS and integrating AI-powered
+                    features to build smarter, faster products.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            {/* Mobile Dev Card */}
+            {/* <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Smartphone className="h-6 w-6 text-primary" />
@@ -78,10 +111,10 @@ export const AboutSection = () => {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* Generative AI Badge Card */}
-            <div className="gradient-border p-6 card-hover">
+            {/* <div className="gradient-border p-6 card-hover">
               <div className="flex items-start gap-4">
                 <div className="p-3 rounded-full bg-primary/10">
                   <Award className="h-6 w-6 text-primary" />
@@ -96,7 +129,7 @@ export const AboutSection = () => {
                     Generative AI concepts.
                   </p>
                   <a
-                    href="https://www.cloudskillsboost.google/public_profiles/3b7ee3c3-35b3-46f4-a062-e5d77a2d4210/badges/18349601" 
+                    href="https://www.cloudskillsboost.google/public_profiles/3b7ee3c3-35b3-46f4-a062-e5d77a2d4210/badges/18349601"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block mt-3 text-primary hover:underline"
@@ -105,7 +138,7 @@ export const AboutSection = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

@@ -4,9 +4,9 @@ import React from "react";
 const experiences = [
   {
     id: 1,
-    role: "Software Developer",
+    role: "Software Developer ",
     company: "Nestcraft Design",
-    duration: "Present",
+    duration: "Jan 2026 - May 2026",
     description:
       "Developed full-stack products including Feelaxo, Feelaxo Jobs, and a WhatsApp automation platform. Integrated WhatsApp Business APIs, built RESTful services, and optimized databases for scalable, high-performance systems.",
     skills: [
@@ -24,12 +24,15 @@ const experiences = [
       "API Integration",
       "Automation Workflows",
     ],
+    certificate:
+      "https://drive.google.com/file/d/1ZUto2-nghDwrxSiM8q9qrOwlgeH18NOU/view?usp=drive_link",
+    type: "Internship", // Badge info
   },
   {
     id: 1,
-    role: "Software Developer Intern",
+    role: "Software Developer",
     company: "SNJL",
-    duration: "Mar 2025 - June 2025",
+    duration: "Jul 2025 - Oct 2025",
     description:
       "Spearheaded the development of a full-stack Liquor Enterprise Management System (EMS), enabling centralized accounting, sales, and inventory management across 10+ shops.",
     skills: [
@@ -45,7 +48,7 @@ const experiences = [
     ],
     certificate:
       "https://drive.google.com/file/d/1eFNk-mlVfh07rNv9Hp5mQaN51P216Ba6/view",
-    type: "Remote", // Badge info
+    type: "Internship", // Badge info
   },
 ];
 
